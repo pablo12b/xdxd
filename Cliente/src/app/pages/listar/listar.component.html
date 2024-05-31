@@ -1,0 +1,15 @@
+<div *ngFor="let producto of productos" class="producto-container">
+  <h2>Detalles del Producto</h2>
+  <div class="producto-detalle">
+    <strong>ID:</strong> {{ producto.codigo }}
+  </div>
+  <div class="producto-detalle">
+    <strong>Nombre:</strong> {{ producto.nombre }}
+  </div>
+  <div class="producto-detalle">
+    <strong>Descripción:</strong> {{ producto.descripcion }}
+  </div>
+  <div class="producto-detalle">
+    <strong>Precio:</strong> {{ producto.precio }}
+  </div>
+</div>

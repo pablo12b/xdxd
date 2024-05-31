@@ -1,0 +1,50 @@
+/* Estilos generales para el nav */
+nav {
+  background-color: #333; /* Color de fondo del nav */
+  color: #fff; /* Color del texto */
+  padding: 10px; /* Espaciado interno */
+}
+
+/* Estilos para la lista principal */
+nav ul {
+  list-style-type: none; /* Quita los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Flexbox para alinear los elementos en fila */
+  justify-content: space-between; /* Distribuye los elementos uniformemente a lo largo del eje principal */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Estilos para los elementos de la lista principal */
+nav ul li {
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para los enlaces en la lista principal */
+nav ul li a {
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: inherit; /* Hereda el color del texto del nav */
+}
+
+/* Estilos para la lista de enlaces */
+nav ul + ul {
+  display: flex; /* Flexbox para alinear los elementos en fila */
+  list-style-type: none; /* Quita los puntos de la lista */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para los elementos de la lista de enlaces */
+nav ul + ul li {
+  margin-left: 20px; /* Espacio entre cada elemento */
+}
+
+/* Estilos para los enlaces en la lista de enlaces */
+nav ul + ul li a {
+  color: #fff; /* Color del texto */
+}
+
+/* Estilos para los enlaces activos */
+nav ul + ul li a.active {
+  color: #ffcc00; /* Color del texto para enlaces activos */
+}

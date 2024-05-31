@@ -1,0 +1,10 @@
+<div class="eliminar-container">
+    <h2>Eliminar Producto</h2>
+    <p>eliminar works!</p>
+    <form (ngSubmit)="borrarProducto()">
+      <label for="productoId">ID del Producto a Borrar:</label>
+      <input type="number" id="productoId" [(ngModel)]="idaBorrar" name="productoId" required>
+      <button type="submit">Borrar Producto</button>
+    </form>
+  </div>
+  

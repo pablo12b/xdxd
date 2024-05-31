@@ -1,0 +1,26 @@
+.producto-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Estilos para los detalles del producto */
+  .producto-detalle {
+    margin-bottom: 10px;
+  }
+  
+  .producto-detalle strong {
+    font-weight: bold;
+    color: #333;
+  }

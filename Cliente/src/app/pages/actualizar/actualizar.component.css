@@ -1,0 +1,51 @@
+/* Estilos para el encabezado */
+h1 {
+    font-size: 24px; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Espacio inferior */
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    max-width: 400px; /* Ancho máximo */
+    margin-bottom: 20px; /* Espacio inferior */
+  }
+  
+  /* Estilos para los elementos del formulario */
+  form div {
+    margin-bottom: 10px; /* Espacio inferior entre elementos */
+  }
+  
+  /* Estilos para las etiquetas */
+  label {
+    display: block; /* Muestra las etiquetas en una línea */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Estilos para los inputs */
+  input {
+    width: 100%; /* Ancho completo */
+    padding: 8px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye el relleno en el ancho total */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 4px; /* Borde redondeado */
+  }
+  
+  /* Estilos para el botón */
+  button {
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    border: none; /* Quita el borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+  
+  /* Estilos para el mensaje de actualización exitosa */
+  div[ngIf="actualizacionExitosa"] {
+    background-color: #28a745; /* Color de fondo verde */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 4px; /* Borde redondeado */
+    margin-top: 10px; /* Espacio superior */
+  }
+  
